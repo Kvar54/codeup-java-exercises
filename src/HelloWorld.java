@@ -7,10 +7,5 @@ public class HelloWorld {
     }
 }
 
-    public class intergerVariable {
-        public static void main(String[] args) {
-
-        }
-    }
 
 
