@@ -158,4 +158,7 @@ public class MethodsExercises {
 //
 //}
 
+
+    ////////////////| Exercise 5 Methods |///////////////
+
 }
