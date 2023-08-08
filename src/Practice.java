@@ -4,7 +4,7 @@ public class Practice {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         //Printing the delimiter used. By default, a whitespace is used as a delimiter
-        //but you can set it to be something else if desired
+        //But you can set it to be something else if desired
         System.out.println("Delimiter:" + scan.delimiter());
 
         //Print the Strings

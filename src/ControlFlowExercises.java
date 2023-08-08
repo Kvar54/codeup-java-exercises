@@ -94,10 +94,11 @@ public class ControlFlowExercises {
 //                int squared = i * i;
 //                int cubed = i * i + i;
 //            System.out.printf("%-6d | %-7d | %-5d%n", i, squared, cubed);
-////                             ^ ^^              ^_separates, It inserts a newline character,the next output will be on a new line
+////                             ^ ^^              ^_separates,& inserts a newline character, so the next output will be on a new line
 ////                             | ||_______ THE d represents the integer value
 ////                             |_|____ The % sign is used to format the printf string
-////                               |___________ The - sign means that the value should be left-aligned within the allotted width of                                              6 characters. If the integer has fewer than 6 characters, it will be padded with                                                 spaces on the right to reach the width of 6 characters.
+////                               |___________ The - sign means that the value should be left-aligned within the allotted width of
+//                                              6 characters. If the integer has fewer than 6 characters, it will be padded with                                                          spaces on the right to reach the width of 6 characters.
 //            }
 //            System.out.println("\nWould you like to continue? (Y/N):");
 //            String answer = scanner.next();
@@ -106,7 +107,7 @@ public class ControlFlowExercises {
 //            }
 //        }
 //
-//        System.out.println("Thank you for using the table of powers program, have a nice day!");
+//        System.out.println("Thank you for using my table program, have a nice day!");
 //
 
 ////////////////////////////////// 4.Convert given number grades into letter grades ///////////////////////////////////
@@ -136,7 +137,7 @@ public class ControlFlowExercises {
         System.out.println("\nWould you like to continue? (Y/N):");
         String answer = scanner1.next();
         if (!answer.equalsIgnoreCase("y")) {
-            System.out.println("Okay have a good day!");;
+            System.out.println("Okay have a good day!");
             break;
         }
             }
