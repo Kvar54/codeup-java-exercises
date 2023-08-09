@@ -18,19 +18,20 @@ public class Student {
 
     // adds the given grade to the grades property
     public void addGrade(int grade) {
-        grades.add(grade);
+       this.grades.add(grade);
     }
 
     // returns the average of the students grades
-    public int getGradeAverage() {
+    public double getGradeAverage() {
         if (grades.isEmpty()) {
             return 0;
         }
-        int sum = 0;
+        double sum = 0;
         for (int grade : grades) {
             sum += grade;
         }
-        return (int) sum/grades.size();
+        return sum/grades.size();
+
     }
 }
 
